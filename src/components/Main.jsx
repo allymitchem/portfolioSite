@@ -1,5 +1,7 @@
 import React from "react";
-import {Navbar} from './'
+import {Navbar, Portfolio, Home} from './'
+import {Route, Routes} from "react-router-dom"
+
 
 const Main = () => {
   return (
