@@ -32,19 +32,10 @@ body {
 
 }
 
-/* #navbar div {
-  padding: 5px;
-  display: flex;
- 
-} */
-
-#home, #about, #portfolio {
+#homeLink, #aboutLink, #portfolioLink {
  color:white;
  text-decoration: none;
  margin:10px;
-
-
-
 }
 
 #container {

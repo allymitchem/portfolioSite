@@ -5,13 +5,13 @@ const Navbar = () => {
     const navigate = useNavigate
     return (
         <div id ="navbar">
-           <NavLink id="home" to="/">
+           <NavLink id="homeLink" to="/">
             Home
            </NavLink>
-           <NavLink id ="about" to="/about">
+           <NavLink id ="aboutLink" to="/about">
             About
            </NavLink>
-           <NavLink id ="portfolio" to="/portfolio">
+           <NavLink id ="portfolioLink" to="/portfolio">
             Portfolio
            </NavLink>
         </div>
