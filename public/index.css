@@ -27,10 +27,24 @@ body {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  
+
 }
 
-#navbar div {
+/* #navbar div {
   padding: 5px;
+  display: flex;
+ 
+} */
+
+#home, #about, #portfolio {
+ color:white;
+ text-decoration: none;
+ margin:10px;
+
+
+
 }
 
 #container {
@@ -41,37 +55,11 @@ body {
   justify-content: center;
 }
 
-#single-contact {
-  display: flex;
-}
 
-#contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 30px;
-}
 
-table {
-  border-collapse: collapse;
-}
 
-table,
-th,
-td {
-  border: 1px solid #222222;
-}
 
-th,
-td {
-  padding: 5px;
-}
 
-tr:hover {
-  background-color: #f2f2f2;
-}
 
-img {
-  border-radius: 5px;
-}
+
 

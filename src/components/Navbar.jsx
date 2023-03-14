@@ -1,11 +1,19 @@
 import React from "react"
-import { useNavigate, Navlink } from "react-router-dom";
+import { useNavigate, Navlink, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navigate = useNavigate
     return (
         <div id ="navbar">
-            <h2> I am navbar</h2>
+           <NavLink id="home" to="/">
+            Home
+           </NavLink>
+           <NavLink id ="about" to="/about">
+            About
+           </NavLink>
+           <NavLink id ="portfolio" to="/portfolio">
+            Portfolio
+           </NavLink>
         </div>
     )
 
