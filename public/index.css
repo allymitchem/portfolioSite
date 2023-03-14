@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-  font-family: 'Raleway', Arial, sans-serif;
+  /* font-family: 'Raleway', Arial, sans-serif; */
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -23,7 +25,7 @@ body {
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #222222;
+  background-color: #0d3b317a;
   color: white;
   display: flex;
   align-items: center;
@@ -36,6 +38,8 @@ body {
  color:white;
  text-decoration: none;
  margin:10px;
+ font-family: 'Montserrat', sans-serif;
+ text-transform: uppercase;
 }
 
 #container {
