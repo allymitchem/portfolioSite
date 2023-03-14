@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Portfolio, Home, About} from './'
+import {Navbar, Portfolio, Home, About, Footer} from './'
 import {Route, Routes} from "react-router-dom"
 
 
@@ -24,6 +24,7 @@ const Main = () => {
               }
          />       
       </Routes>
+      <Footer id ="footer"/>
   </div>
   );
 };
