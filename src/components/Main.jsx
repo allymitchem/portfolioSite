@@ -4,14 +4,7 @@ import {Route, Routes} from "react-router-dom"
 
 
 const Main = () => {
-  // const myStyle = {
-  //   backgroundImage: "url('https://res.cloudinary.com/fsa2/image/upload/v1678901609/portfolio%20site%20images/pexels-elijah-o_donnell-3473569_sdtafo.jpg')",
-  //   height:'100%',
-  //   backgroundSize: 'cover',
-  //   backgroundRepeat:'no-repeat',
-
   
-  // }
   return (
   
 
