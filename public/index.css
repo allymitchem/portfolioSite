@@ -7,24 +7,30 @@ body {
   margin: 0;
 }
 
-#app {
-  min-height: 100%;
+/* #app {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 60px;
-}
+} */
 
 #main {
   height: 100vh;
   display: flex;
   flex-direction: column;
   flex-grow:1;
+  background-image: url("https://res.cloudinary.com/fsa2/image/upload/v1678901603/portfolio%20site%20images/pexels-elias-tigiser-2757549_ngaadk.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  
 }
-
+#backgroundImage {
+  position:fixed;
+}
 #navbar {
   font-family: 'Poller One', Arial, sans-serif;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   max-height: 10%;
   min-height: 40px;
   background-color: #0d3b317a;
