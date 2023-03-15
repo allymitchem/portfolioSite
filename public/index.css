@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
 
 body {
-  /* font-family: 'Raleway', Arial, sans-serif; */
   height: 100vh;
   width: 100vw;
   margin: 0;
 }
 
-/* #app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 60px;
-} */
+
 
 #main {
   height: 100vh;
@@ -30,10 +23,10 @@ body {
 }
 #navbar {
   font-family: 'Poller One', Arial, sans-serif;
-  /* flex-grow: 1; */
   max-height: 10%;
   min-height: 40px;
-  background-color: #0d3b317a;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
   color: white;
   display: flex;
   align-items: center;
@@ -50,15 +43,36 @@ body {
  text-transform: uppercase;
 }
 
-/* #container {
-  align-items: center;
-  cursor: default;
-  display: flex;
-  flex-grow: 2;
-  justify-content: center;
-  
-} */
+#home {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
 
+  margin-top:30px;
+  display:flex;
+  flex-direction: column;
+  margin-right:20%;
+  margin-left:20%;
+  padding:20px;
+}
+
+#name{
+  font-family: 'Montserrat', sans-serif;
+  font-size:60pt;
+  text-transform: uppercase;
+  align-self: center;
+  margin-bottom: -15px;
+
+}
+
+#title{
+  font-family: 'Lora', serif;
+  font-size:30pt;
+  align-self: center;
+  margin-top: 0;
+}
 
 
 #footer {
@@ -66,7 +80,8 @@ body {
   left:0;
   bottom:0;
   right:0;
-  background-color: #0d3b317a;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   display:flex;
