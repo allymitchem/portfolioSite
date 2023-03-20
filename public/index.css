@@ -54,7 +54,7 @@ font-size: 14pt;
 
 #home {
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -109,3 +109,20 @@ height:40px;
 
 }
 
+#about {
+  background-color: rgba(255, 255, 255, 0.437);
+  backdrop-filter: blur(15px);
+  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin:5%;
+  padding:2%;
+  border-radius: 15px;
+  overflow-y: scroll;
+  font-family: 'Montserrat', sans-serif;
+ 
+
+}
+ #langIcons {
+  align-self: center;
+  margin-top:15px;
+ }
