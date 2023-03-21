@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300&display=swap");
 
 body {
   height: 100vh;
@@ -6,23 +6,23 @@ body {
   margin: 0;
 }
 
-
-
 #main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-grow:1;
+  flex-grow: 1;
   background-image: url("https://res.cloudinary.com/fsa2/image/upload/v1678901603/portfolio%20site%20images/pexels-elias-tigiser-2757549_ngaadk.jpg");
   background-size: cover;
-  background-repeat:no-repeat;
-  
+  background-repeat: no-repeat;
 }
 #backgroundImage {
-  position:fixed;
+  position: fixed;
 }
+
+/*NAVBAR*/
+
 #navbar {
-  font-family: 'Poller One', Arial, sans-serif;
+  font-family: "Poller One", Arial, sans-serif;
   max-height: 10%;
   min-height: 50px;
   background-color: rgba(255, 255, 255, 0.3);
@@ -33,118 +33,134 @@ body {
   justify-content: flex-end;
 }
 
-
-#homeLink, #aboutLink, #portfolioLink {
- color:black;
- text-decoration: none;
- margin:10px;
- font-family: 'Montserrat', sans-serif;
-font-size: 14pt;
- text-transform: uppercase;
- cursor: pointer;
- padding-right:20px;
- border-right: 2px solid black;
- align-content: center;
- 
+#homeLink,
+#aboutLink,
+#portfolioLink {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14pt;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-right: 20px;
+  border-right: 2px solid black;
+  align-content: center;
 }
 
 #portfolioLink {
-  border:none;
+  border: none;
 }
-
+/*HOME PAGE*/
 #home {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
-  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top:15%;
-  display:flex;
+  margin-top: 15%;
+  display: flex;
   flex-direction: column;
-  margin-right:20%;
-  margin-left:20%;
-  padding:20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 20px;
 }
 
-#name{
-  font-family: 'Bungee Shade', cursive;
-  font-size:50pt;
+#name {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50pt;
   text-transform: uppercase;
   align-self: center;
- margin-bottom: 0;
- 
-
+  margin-bottom: 0;
 }
 
-#title{
-  font-family: 'Montserrat', sans-serif;
-  font-size:30pt;
+#title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30pt;
   align-self: center;
   margin-top: 0;
   text-transform: uppercase;
-
-  
 }
 
+/*FOOTER*/
 
 #footer {
-  position:fixed;
-  left:0;
-  bottom:0;
-  right:0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #footerIcons {
-margin:5px;
-width:40px;
-height:40px;
-
-
+  margin: 5px;
+  width: 40px;
+  height: 40px;
 }
-
+/* About Me section*/
 #about {
   background-color: rgba(255, 255, 255, 0.437);
   backdrop-filter: blur(10px);
-  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top:5%;
-  /* margin-bottom: 8%; */
+  margin-top: 5%;
   margin-right: 5%;
   margin-left: 5%;
-  padding:2%;
+  padding: 2%;
   border-radius: 15px;
   overflow-y: scroll;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   max-height: 55vh;
-
 }
 
 #aboutMeTextBox {
   font-size: 15pt;
-
 }
- #langIcons {
+#langIcons {
   /* background-color: rgba(107, 164, 110, 0.437); */
   backdrop-filter: blur(5px);
-  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   /* border: 1px solid rgba(255, 255, 255, 0.1); */
   border-radius: 15px;
   align-self: center;
-  margin-top:15px;
-  margin-right:20%;
-  margin-left:20%;
-  display:flex;
+  margin-top: 15px;
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
   justify-content: center;
-  
- }
+}
 
- #logoIcons {
-  height:85px;
- }
+#logoIcons {
+  height: 85px;
+}
+
+/* PORTFOLIO PAGE */
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin:5%;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.cardContainer {
+  padding: 2px 16px;
+}
+
+.projectTitle {
+  margin-bottom:0;
+  text-transform: uppercase;
+}
+
+.roleDate {
+  margin-top:0;
+}
