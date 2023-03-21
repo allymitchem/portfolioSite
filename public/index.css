@@ -147,8 +147,8 @@ body {
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin:5%;
-
+  margin:10%;
+  width:80%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -159,6 +159,7 @@ body {
 .projectTitle {
   margin-bottom:0;
   text-transform: uppercase;
+
 }
 
 .roleDate {
