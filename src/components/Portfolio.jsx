@@ -1,9 +1,11 @@
 import React from "react";
+import FlipCard from "./FlipCard";
 
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <div class="card">
+        <FlipCard/>
+      {/* <div class="card">
         <img></img>
         <div class="cardContainer">
           <h3 class="projectTitle">
@@ -37,7 +39,7 @@ const Portfolio = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
