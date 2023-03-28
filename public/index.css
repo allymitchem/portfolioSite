@@ -41,6 +41,7 @@ body {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 14pt;
+  font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
   padding-right: 20px;
@@ -52,18 +53,36 @@ body {
   border: none;
 }
 /*HOME PAGE*/
+
 #home {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
+  border: 5px solid black;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
   margin-top: 15%;
   display: flex;
   flex-direction: column;
   margin-right: 20%;
   margin-left: 20%;
   padding: 20px;
+  width:850px;
+  overflow:hidden;
+  position:relative;
+  right:-200px;
+  animation-name: slide-in;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  
+
+}
+
+@keyframes slide-in {
+  from {right:-850px;}
+  to {right: calc(50% - 668px);}
+
 }
 
 #name {
@@ -108,7 +127,7 @@ body {
   background-color: rgba(255, 255, 255, 0.437);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 5px solid black;
   margin-top: 5%;
   margin-right: 5%;
   margin-left: 5%;
@@ -124,9 +143,10 @@ body {
 }
 #langIcons {
   /* background-color: rgba(107, 164, 110, 0.437); */
+  padding:4px;
   backdrop-filter: blur(5px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+  border: 5px solid black;
   border-radius: 15px;
   align-self: center;
   margin-top: 15px;
