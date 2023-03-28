@@ -5,13 +5,13 @@ const Navbar = () => {
     
     return (
         <div id ="navbar">
-           <NavLink id="homeLink" to="/">
+           <NavLink id="homeLink" className="current-page" to="/">
             Home
            </NavLink>
-           <NavLink id ="aboutLink" to="/about">
+           <NavLink id ="aboutLink" className="current-page" to="/about">
             About
            </NavLink>
-           <NavLink id ="portfolioLink" to="/portfolio">
+           <NavLink id ="portfolioLink" activeClassName="active-link" to="/portfolio">
             Portfolio
            </NavLink>
         </div>
