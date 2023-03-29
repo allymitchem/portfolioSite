@@ -46,6 +46,39 @@ return (
           </ul>
         </div>
         </div>
+        {/* <div id="cardFront">
+           <img className="siteImage" src=""/>
+        </div>
+        <div id="cardBack">
+        <div className="cardContainer">
+          <h3 className="projectTitle">
+            <b></b>
+          </h3>
+          <p className="roleDate">
+            <b>Collaborator | December 2022</b>
+          </p>
+          <div className="allLinks">
+            <a className="links" href="">Deployed</a>
+            <a className="links" href="">
+            Front End
+            </a>
+          < a className="links" id="lastLink" href="">Back End</a>
+          </div>
+          <p>
+            <i></i> 
+          </p>
+          <ul>
+            <li></li>
+            <li>
+  
+            </li>
+            <li></li>
+            <li>
+
+            </li>
+          </ul>
+        </div>
+        </div> */}
     </div>
 )
 }
