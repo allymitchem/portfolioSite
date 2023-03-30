@@ -4,7 +4,8 @@ const cardInfo =[
     {
         id: 1,
         imageSrc: "https://res.cloudinary.com/fsa2/image/upload/v1670130227/Site%20Images/Logo_for_Website_1_2_xnx2hf.png",
-        title: "Sheds & Dignity",
+        title: "Sheds & Dignity - A Bookshop",
+        role: "Collaborator | December 2022",
         links: [
             {text: "Deployed", url: "https://graceshopperfrontend.onrender.com"},
 
@@ -25,6 +26,7 @@ const FlipCard = () => {
         isFlipped: false,
         imageSrc: cardInfo[0].imageSrc,
         title: cardInfo[0].title,
+        role: cardInfo[0].role,
         links: cardInfo[0].links,
         description: cardInfo[0].description,
         features: cardInfo[0].features
@@ -56,10 +58,10 @@ return (
             </div>
             <div id="cardBack">
                 <h3 className="projectTitle">
-                    <b>Sheds & Dignity - A Bookshop</b>
+                    <b>{card.title}</b>
                 </h3>
                 <p className="roleDate">
-                    <b>Collaborator | December 2022</b>
+                    <b>{card.role}</b>
                 </p>
                 <div className="allLinks">
                     <a className="links" href="https://graceshopperfrontend.onrender.com">
