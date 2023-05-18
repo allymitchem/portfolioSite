@@ -9,6 +9,21 @@ const ProjectCard = () => {
         <div class="projectContainer">
             <div class="individualProjects">
                 <span class="imageContainer">
+                    <img src="https://res.cloudinary.com/fsa2/image/upload/v1684448158/portfolio%20site%20images/Screen_Shot_2023-05-18_at_4.14.07_PM_esytkn.png" alt="InfiniteScroll"/>
+                </span>
+                <h2 class="titles" >Unsplash API - Infinite Scroll</h2>
+                <h3 class="roles">Developer | May 2023</h3>
+                <p class="descriptions">The Unsplash API - Infinite Scroll application allows users to scroll infinitely through randomly generated images. At the initial loading of the site, a custom loading icon appears until the images are ready.</p>
+                <span class="projectLinks">
+                <a  href="https://github.com/allymitchem/infiniteScroll" target ="_blank">
+                <img class="projectGH" src={github} alt="github"/>
+                </a>
+                </span>
+             </div>
+
+
+            <div class="individualProjects">
+                <span class="imageContainer">
                     <img src="https://res.cloudinary.com/fsa2/image/upload/v1684447120/portfolio%20site%20images/Screen_Shot_2023-05-18_at_3.58.17_PM_w2z2b3.png" alt="QuoteGenerator"/>
                 </span>
                 <h2 class="titles" >Quote Generator</h2>
