@@ -8,7 +8,9 @@ const ProjectCard = () => {
     return (
         <div class="projectContainer">
             <div class="individualProjects">
-                <img src="https://res.cloudinary.com/fsa2/image/upload/v1684442298/portfolio%20site%20images/Screen_Shot_2023-05-18_at_2.38.03_PM_ajgj9q.png" alt="Sheds&Dignity"/>
+                <span class="imageContainer">
+                    <img src="https://res.cloudinary.com/fsa2/image/upload/v1684442298/portfolio%20site%20images/Screen_Shot_2023-05-18_at_2.38.03_PM_ajgj9q.png" alt="Sheds&Dignity"/>
+                </span>
                 <h2 class="titles" >Sheds & Dignity - A Bookshop</h2>
                 <h3 class="roles">Collaborator | December 2022</h3>
                 <p class="descriptions">Sheds & Dignity is an e-commerce website selling multiple genres of books. Users can register and login to the website to view previous order history, update their information in their user account and confirm their purchase in the cart view.</p>

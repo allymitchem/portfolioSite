@@ -284,7 +284,7 @@ background-color: white;
 /* Project Container */
 .projectContainer {
 
-  margin: 8% 30%;
+  margin: 8% 25%;
   /* border: 3px solid red; */
   overflow-y: scroll;
   padding:5px;
@@ -294,36 +294,45 @@ background-color: white;
 
 .individualProjects {
   
-  border:1px solid rgb(0, 0, 0);
+  /* border:1px solid rgb(0, 0, 0); */
   width: 100%;
   margin-bottom: 30px;
   background-color: rgba(255, 255, 255, 0.729);
   
+  
 }
 
 .projectContainer img {
-  width:100%;
+  width:95%;
+  margin-top: 2%;
   margin-bottom:5px;
 
+}
+
+.imageContainer {
+  display:flex;
+  justify-content: center;
 }
 
 .titles {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
-  padding-left:10px;
+  padding-left:20px;
   margin-bottom: 0;
 }
 .roles {
   font-family: 'Montserrat', sans-serif;
   font-weight:400;
   font-size: 1rem;
-  padding-left: 10px;
+  padding-left: 20px;
   margin-top: 0;
 }
 
 .descriptions {
   font-family: 'Montserrat', sans-serif;
-  padding-left:10px;
+  padding-left:20px;
+  padding-right:5px;
+  /* padding-right: 8px; */
 }
 
 .projectLinks{
@@ -337,6 +346,7 @@ align-items: center;
 .projectLinks a {
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
 }
 
 .projectLinks a:active {
@@ -347,6 +357,6 @@ align-items: center;
 .projectGH {
 width:auto;
 height: auto;
-max-width: 8%;
+max-width: 5%;
 }
 
