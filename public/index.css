@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap');
 body {
   height: 100vh;
   width: 100vw;
@@ -210,29 +210,25 @@ a:active {
   display: flex;
   flex-wrap: wrap;
 } */
-#portfolio {
-  /* display: flex; */
-  /* overflow-y: scroll; */
-}
 
-.cardGrid {
+/* .cardGrid {
   display:grid;
   grid-template-columns: repeat(3,1fr);
   gap: 30px;
 
-}
+} */
 
-.projectTitle {
+/* .projectTitle {
   margin-bottom:0;
   text-transform: uppercase;
 
-}
+} */
 
-.roleDate {
+/* .roleDate {
   margin-top:0;
-}
+} */
 /*Flip Cards */
-.card{
+/* .card{
   grid-column: span 1;
   padding:30px;
   position: relative;
@@ -241,37 +237,37 @@ a:active {
   transition:transform 0.6s;
   transform-style: preserve-3d;
   font-family: "Montserrat", sans-serif;
-}
-#cardFront, #cardBack, .siteImage  {
+} */
+/* #cardFront, #cardBack, .siteImage  {
   /* border-top-right-radius: 80px;
   border-bottom-left-radius: 80px; */
-  border:3px solid black;
+  /* border:3px solid black;
   position: absolute;
 width:100%;
 height:100%;
-backface-visibility: hidden;
-}
+backface-visibility: hidden; */
 
 
 
-.card.is-flipped {
+
+/* .card.is-flipped {
   transform:rotateY(180deg);
-}
-#cardFront {
+} */
+/* #cardFront {
 background-color: white; 
-}
-#cardBack{
+} */
+/* #cardBack{
   transform: rotateY(180deg);
   background-color: rgba(255, 255, 255, 0.786);
   backdrop-filter: blur(5px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   /* border: 2px solid rgba(255, 255, 255, 0.3); */
-}
-.allLinks{
+
+/* .allLinks{
   display:flex;
   justify-content: center;
-}
-.links {
+} */ 
+/* .links {
   padding:10px;
   text-decoration: none;
   color:rgb(4, 35, 24);
@@ -283,19 +279,74 @@ background-color: white;
 
 #lastLink{
   border:none;
-}
+} */
 
 /* Project Container */
 .projectContainer {
 
-  margin: 5% 30%;
-  border: 3px solid red;
+  margin: 8% 30%;
+  /* border: 3px solid red; */
   overflow-y: scroll;
+  padding:5px;
+  
 }
 
+
 .individualProjects {
-  border:2px solid blue;
+  
+  border:1px solid rgb(0, 0, 0);
   width: 100%;
   margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.729);
+  
+}
+
+.projectContainer img {
+  width:100%;
+  margin-bottom:5px;
+
+}
+
+.titles {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  padding-left:10px;
+  margin-bottom: 0;
+}
+.roles {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 1rem;
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+.descriptions {
+  font-family: 'Montserrat', sans-serif;
+  padding-left:10px;
+}
+
+.projectLinks{
+  width: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.projectLinks a {
+  display: flex;
+  justify-content: center;
+}
+
+.projectLinks a:active {
+  transform: translate(0, 0.1rem);
+ 
+}
+
+.projectGH {
+width:auto;
+height: auto;
+max-width: 8%;
 }
 
