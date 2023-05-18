@@ -24,7 +24,7 @@ const Main = () => {
         />
         <Route path="/"
               element ={
-                <Home/>
+                <Home isHomePage = {true}/>
               }
          />       
       </Routes>

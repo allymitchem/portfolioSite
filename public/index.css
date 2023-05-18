@@ -11,13 +11,10 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-image: url("https://res.cloudinary.com/fsa2/image/upload/v1678901603/portfolio%20site%20images/pexels-elias-tigiser-2757549_ngaadk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:whitesmoke;
+  
 }
-#backgroundImage {
-  position: fixed;
-}
+
 
 /*NAVBAR*/
 
@@ -25,13 +22,16 @@ body {
   font-family: "Poller One", Arial, sans-serif;
   max-height: 10%;
   min-height: 50px;
-  background-color: rgba(255, 255, 255, 0.3);
+  width:100vw;
+  background-color: rgba(245, 245, 245, 0.342);
   backdrop-filter: blur(5px);
-
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: fixed;
 }
+
+
 
 #homeLink,
 #aboutLink,
@@ -53,7 +53,14 @@ body {
 #homeLink:hover,
 #aboutLink:hover,
 #portfolioLink:hover {
-  color:white;
+  color:rgba(10, 47, 31, 0.971);
+  filter:brightness(250%);
+}
+
+#homeLink:active,
+#aboutLink:active,
+#portfolioLink:active {
+  transform: translate(0, 0.1rem);
 }
 
 #portfolioLink {
@@ -61,13 +68,21 @@ body {
 }
 /*HOME PAGE*/
 
+#home #navbar {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
 #home {
+  
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
+  border-radius: 10px;
   /* border: 5px solid black; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.107);
   margin-top: 15%;
   display: flex;
   flex-direction: column;
@@ -115,7 +130,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(245, 245, 245, 0.342);
   backdrop-filter: blur(5px);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -130,7 +145,9 @@ body {
   height: 40px;
 }
 /* About Me section*/
+
 #about {
+  
   background-color: rgba(255, 255, 255, 0.437);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -151,8 +168,8 @@ body {
 #langIcons {
   /* background-color: rgba(107, 164, 110, 0.437); */
   padding:4px;
-  backdrop-filter: blur(5px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* backdrop-filter: blur(5px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   /* border: 2px solid rgba(255, 255, 255, 0.3); */
   border-radius: 15px;
   align-self: center;
@@ -165,6 +182,9 @@ body {
 
 #logoIcons {
   height: 85px;
+}
+a:active {
+  transform: translate(0, 0.1rem);
 }
 
 /* PORTFOLIO PAGE */
