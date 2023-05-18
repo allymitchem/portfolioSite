@@ -7,13 +7,13 @@ const Footer = () => {
     return (
         <div id="footer">
             
-            <a href="mailto:allysonmitchem@gmail.com">
+            <a href="mailto:allysonmitchem@gmail.com" target ="_blank">
                 <img id="footerIcons" src={email} alt="email"/>
             </a>
-            <a href="https://www.linkedin.com/in/allysonmitchem/">
-                <img  id="footerIcons" src={linkedin} alt="linkedIn" />
+            <a href="https://www.linkedin.com/in/allysonmitchem/" target ="_blank">
+                <img  id="footerIcons" src={linkedin} alt="linkedIn"/>
             </a>
-            <a href="https://github.com/allymitchem">
+            <a href="https://github.com/allymitchem" target ="_blank">
                 <img id="footerIcons" src={github} alt="github"/>
             </a>
 
