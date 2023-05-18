@@ -11,13 +11,17 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-image: url("https://res.cloudinary.com/fsa2/image/upload/v1678901603/portfolio%20site%20images/pexels-elias-tigiser-2757549_ngaadk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:whitesmoke;
+  
 }
-#backgroundImage {
+
+
+
+
+
+/* #backgroundImage {
   position: fixed;
-}
+} */
 
 /*NAVBAR*/
 
@@ -25,13 +29,15 @@ body {
   font-family: "Poller One", Arial, sans-serif;
   max-height: 10%;
   min-height: 50px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(12, 54, 32, 0.452);
   backdrop-filter: blur(5px);
 
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
+
+
 
 #homeLink,
 #aboutLink,
@@ -61,7 +67,15 @@ body {
 }
 /*HOME PAGE*/
 
+#home #navbar {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
 #home {
+  
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   /* border: 5px solid black; */
@@ -130,7 +144,9 @@ body {
   height: 40px;
 }
 /* About Me section*/
+
 #about {
+  
   background-color: rgba(255, 255, 255, 0.437);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
