@@ -6,7 +6,7 @@ import nodeJS from './nodeJS.png';
 import react from './react.png';
 import postgreSQL from './postgreSQL.png';
 
-
+// testtt
 const About = () => {
     return (
         <div >
