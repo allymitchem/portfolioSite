@@ -7,11 +7,12 @@ body {
 }
 
 #main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   background-color:whitesmoke;
+  
   
 }
 
@@ -29,6 +30,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   position: fixed;
+ 
 }
 
 
@@ -282,3 +284,18 @@ background-color: white;
 #lastLink{
   border:none;
 }
+
+/* Project Container */
+.projectContainer {
+
+  margin: 5% 30%;
+  border: 3px solid red;
+  overflow-y: scroll;
+}
+
+.individualProjects {
+  border:2px solid blue;
+  width: 100%;
+  margin-bottom: 30px;
+}
+

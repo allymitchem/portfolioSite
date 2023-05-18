@@ -1,10 +1,12 @@
 import React from "react";
 import FlipCard from "./FlipCard";
+import ProjectCard from "./ProjectCard"
 
 const Portfolio = () => {
   return (
     <div id="portfolio">
-        <FlipCard/>
+        {/* <FlipCard/> */}
+        <ProjectCard/>
       
     </div>
   );
