@@ -55,8 +55,8 @@ body {
 #homeLink:hover,
 #aboutLink:hover,
 #portfolioLink:hover {
-  color:rgba(10, 47, 31, 0.971);
-  filter:brightness(250%);
+  color:#101C0DFF;
+  filter:brightness(300%);
 }
 
 #homeLink:active,
@@ -332,6 +332,7 @@ background-color: white;
   font-family: 'Montserrat', sans-serif;
   padding-left:20px;
   padding-right:5px;
+  margin-bottom: 0;
   /* padding-right: 8px; */
 }
 
@@ -347,6 +348,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
+  
 }
 
 .projectLinks a:active {
