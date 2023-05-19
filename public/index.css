@@ -58,8 +58,8 @@ body {
 #homeLink:hover,
 #aboutLink:hover,
 #portfolioLink:hover {
-  color:#101C0DFF;
-  filter:brightness(300%);
+  color:rgb(23, 82, 61);
+  filter:brightness(150%);
 }
 
 #homeLink:active,

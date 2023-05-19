@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = ({isHomePage}) => {
     const homeStyles = {
-        backgroundImage: isHomePage ? 'url("https://res.cloudinary.com/fsa2/image/upload/v1678901603/portfolio%20site%20images/pexels-elias-tigiser-2757549_ngaadk.jpg")' : '',
+        backgroundImage: isHomePage ? 'url("https://res.cloudinary.com/fsa2/image/upload/v1684522228/portfolio%20site%20images/background-portfolio_xi4c3s.png")' : '',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100vh"
