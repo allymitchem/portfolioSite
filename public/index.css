@@ -183,7 +183,7 @@ a:active {
 /* Project Container */
 .projectContainer {
 
-  margin: 8% 20%;
+  margin: 5% 20%;
   
   overflow-y: scroll;
   padding:5px;
@@ -273,9 +273,6 @@ max-width: 5%;
     
   }
  
-  #langIcons{
-    /* margin-top:5%; */
-  }
 
   #logoIcons {
     height:50px;
