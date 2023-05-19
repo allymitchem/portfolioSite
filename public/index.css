@@ -142,24 +142,29 @@ body {
 /* About Me section*/
 
 #about {
-  margin: 12% 20%;
+  margin: 10% 20%;
   background-color: white;
   backdrop-filter: blur(10px);
   padding: 2%;
-  
   font-family: 'Bebas Neue', sans-serif;
-  max-height: 55vh;
+  font-size: 1.5rem;
+  /* max-height: 55vh; */
+ 
+}
+
+#about h2 {
+  margin-bottom: 10px;
 }
 
 #aboutMeTextBox {
+  margin-top: 0;
   font-size: 15pt;
   font-family: "Montserrat", sans-serif;
 }
 #langIcons {
   padding:5px;
-  
   align-self: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   margin-right: 20%;
   margin-left: 20%;
   display: flex;
@@ -167,7 +172,7 @@ body {
 }
 
 #logoIcons {
-  height: 85px;
+  height: 80px;
 }
 a:active {
   transform: translate(0, 0.1rem);
@@ -258,17 +263,24 @@ max-width: 5%;
 
 @media screen and (max-width:1000px){
   #home, #about {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  #aboutMeTextBox {
+    font-size: 1rem;
+    
   }
  
   #langIcons{
-    margin-top:5%;
+    /* margin-top:5%; */
   }
 
   #logoIcons {
-    height:60px;
+    height:50px;
   }
   
 
 
+}
