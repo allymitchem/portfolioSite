@@ -20,8 +20,7 @@ body {
 /*NAVBAR*/
 
 #navbar {
-  /* font-family: "Poller One", Arial, sans-serif; */
-  /* font-family: 'Bebas Neue', sans-serif; */
+
   max-height: 10%;
   min-height: 50px;
   width:100vw;
@@ -43,7 +42,6 @@ body {
   text-decoration: none;
   margin: 10px;
   font-family: "Montserrat", sans-serif;
-  /* font-family: 'Bebas Neue', sans-serif; */
   letter-spacing: 1px;
   font-size: 14pt;
   font-weight: 600;
@@ -82,38 +80,29 @@ body {
 }
 #home {
   
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(245, 245, 245, 0.157);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  /* border: 1px solid rgba(255, 255, 255, 0.107); */
+  
   margin-top: 15%;
-  /* margin: 8% 25%; */
+  
   display: flex;
+ align-items: center;
+ justify-content: center;
   flex-direction: column;
   margin-right: 20%;
   margin-left: 20%;
   padding: 20px;
-  /* width:850px; */
-  /* overflow:hidden;
-  position:relative;
-  right:-200px; */
-  /* animation-name: slide-in;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; */
   
 
 }
 
-/* @keyframes slide-in {
-  from {right:-850px;}
-  to {right: calc(50% - 668px);}
 
-} */
 
 #name {
   font-family: "Bungee Shade", cursive;
+ 
   font-size: 50pt;
   text-transform: uppercase;
   align-self: center;
@@ -122,6 +111,7 @@ body {
 
 #title {
   font-family: "Montserrat", sans-serif;
+ 
   font-size: 30pt;
   align-self: center;
   margin-top: 0;
@@ -167,7 +157,7 @@ body {
 }
 #langIcons {
   padding:5px;
-  /* border-radius: 15px; */
+  
   align-self: center;
   margin-top: 10%;
   margin-right: 20%;
@@ -188,8 +178,8 @@ a:active {
 /* Project Container */
 .projectContainer {
 
-  margin: 8% 25%;
-  /* border: 3px solid red; */
+  margin: 8% 20%;
+  
   overflow-y: scroll;
   padding:5px;
   
@@ -198,7 +188,7 @@ a:active {
 
 .individualProjects {
   
-  /* border:1px solid rgb(0, 0, 0); */
+  
   width: 100%;
   margin-bottom: 30px;
   background-color: rgba(255, 255, 255, 0.729);
@@ -237,7 +227,7 @@ a:active {
   padding-left:20px;
   padding-right:13px;
   margin-bottom: 0;
-  /* padding-right: 8px; */
+  
 }
 
 .projectLinks{
@@ -282,4 +272,3 @@ max-width: 5%;
   
 
 
-}
