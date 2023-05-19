@@ -84,33 +84,33 @@ body {
   
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-  /* border: 5px solid black; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.107);
+  /* border: 1px solid rgba(255, 255, 255, 0.107); */
   margin-top: 15%;
+  /* margin: 8% 25%; */
   display: flex;
   flex-direction: column;
   margin-right: 20%;
   margin-left: 20%;
   padding: 20px;
-  width:850px;
-  overflow:hidden;
+  /* width:850px; */
+  /* overflow:hidden;
   position:relative;
-  right:-200px;
-  animation-name: slide-in;
+  right:-200px; */
+  /* animation-name: slide-in;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
   
 
 }
 
-@keyframes slide-in {
+/* @keyframes slide-in {
   from {right:-850px;}
   to {right: calc(50% - 668px);}
 
-}
+} */
 
 #name {
   font-family: "Bungee Shade", cursive;
@@ -152,7 +152,7 @@ body {
 /* About Me section*/
 
 #about {
-  margin: 12% 25%;
+  margin: 12% 20%;
   background-color: white;
   backdrop-filter: blur(10px);
   padding: 2%;
@@ -166,8 +166,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #langIcons {
-  padding:4px;
-  border-radius: 15px;
+  padding:5px;
+  /* border-radius: 15px; */
   align-self: center;
   margin-top: 10%;
   margin-right: 20%;
@@ -266,3 +266,20 @@ height: auto;
 max-width: 5%;
 }
 
+@media screen and (max-width:1000px){
+  #home, #about {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+ 
+  #langIcons{
+    margin-top:5%;
+  }
+
+  #logoIcons {
+    height:60px;
+  }
+  
+
+
+}
