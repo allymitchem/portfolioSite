@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/portfolioSite/static/js/main.28efa2e4.js",
-    "static/media/react.png": "/portfolioSite/static/media/react.2f2532db663fd5ec5f95.png",
-    "static/media/htmlJSCSS.png": "/portfolioSite/static/media/htmlJSCSS.a031633e09f8cbbcff12.png",
-    "static/media/postgreSQL.png": "/portfolioSite/static/media/postgreSQL.c56c146c8e3ec2402c98.png",
-    "static/media/github.png": "/portfolioSite/static/media/github.9e0a1ad5b7392718f7bd.png",
-    "static/media/linkedin.png": "/portfolioSite/static/media/linkedin.a680cb8ad2b88be03d17.png",
-    "static/media/cplusplus.png": "/portfolioSite/static/media/cplusplus.1240ce157b70fb399c6c.png",
-    "static/media/nodeJS.png": "/portfolioSite/static/media/nodeJS.478c590a266bed215577.png",
-    "static/media/email.png": "/portfolioSite/static/media/email.ed011846cef26c77db90.png",
-    "index.html": "/portfolioSite/index.html",
-    "main.28efa2e4.js.map": "/portfolioSite/static/js/main.28efa2e4.js.map"
+    "main.js": "/allymitchem.github.io/portfolioSite/static/js/main.9a824066.js",
+    "static/media/react.png": "/allymitchem.github.io/portfolioSite/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/htmlJSCSS.png": "/allymitchem.github.io/portfolioSite/static/media/htmlJSCSS.a031633e09f8cbbcff12.png",
+    "static/media/postgreSQL.png": "/allymitchem.github.io/portfolioSite/static/media/postgreSQL.c56c146c8e3ec2402c98.png",
+    "static/media/github.png": "/allymitchem.github.io/portfolioSite/static/media/github.9e0a1ad5b7392718f7bd.png",
+    "static/media/linkedin.png": "/allymitchem.github.io/portfolioSite/static/media/linkedin.a680cb8ad2b88be03d17.png",
+    "static/media/cplusplus.png": "/allymitchem.github.io/portfolioSite/static/media/cplusplus.1240ce157b70fb399c6c.png",
+    "static/media/nodeJS.png": "/allymitchem.github.io/portfolioSite/static/media/nodeJS.478c590a266bed215577.png",
+    "static/media/email.png": "/allymitchem.github.io/portfolioSite/static/media/email.ed011846cef26c77db90.png",
+    "index.html": "/allymitchem.github.io/portfolioSite/index.html",
+    "main.9a824066.js.map": "/allymitchem.github.io/portfolioSite/static/js/main.9a824066.js.map"
   },
   "entrypoints": [
-    "static/js/main.28efa2e4.js"
+    "static/js/main.9a824066.js"
   ]
 }

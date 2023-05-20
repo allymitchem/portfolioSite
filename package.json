@@ -1,18 +1,20 @@
 {
+  "homepage": "allymitchem.github.io/portfolioSite/",
   "name": "contact-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "/portfolioSite/",
   "scripts": {
     "start-dev": "NODE_ENV='development' react-scripts start",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
