@@ -300,9 +300,9 @@ a:active {
     margin-top: 20%;
    }
 
-   #projectLinks img {
+   .projectLinks img {
     height: 1rem;
-    width:50%;
+    /* width:.5rem; */
    }
 
 
