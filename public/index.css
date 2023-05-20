@@ -297,11 +297,12 @@ a:active {
     height:50px;
   }
    .projectContainer {
-    margin-top: 12%;
+    margin-top: 20%;
    }
 
    #projectLinks img {
     height: 1rem;
+    width:50%;
    }
 
 
