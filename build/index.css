@@ -44,7 +44,7 @@ body {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  font-size: .5rem; 
+  font-size: .75rem; 
   /* needing a smaller font-size due to deployment site */
   font-weight: 600;
   text-transform: uppercase;
