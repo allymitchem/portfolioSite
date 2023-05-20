@@ -43,7 +43,7 @@ body {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
@@ -145,13 +145,14 @@ body {
   backdrop-filter: blur(10px);
   padding: 2%;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.5rem;
-  /* max-height: 55vh; */
+  /* font-size: 1.5rem; */
+  /* max-height: 50vh; */
  
 }
 
 #about h2 {
   margin-bottom: 10px;
+  /* font-size: 1.75rem; */
 }
 
 #aboutMeTextBox {
