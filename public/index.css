@@ -253,7 +253,7 @@ a:active {
 }
 
 .projectLinks img {
-  height: 1.75rem;
+  width: 1.75rem;
   margin-bottom:20px;
 }
 
@@ -301,7 +301,7 @@ a:active {
    }
 
    .projectLinks img {
-    height: 1rem;
+    width: 1rem;
     /* width:.5rem; */
    }
 
