@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "/portfolioSite/",
   "scripts": {
     "start-dev": "NODE_ENV='development' react-scripts start",
     "start": "react-scripts start",
