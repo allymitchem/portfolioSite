@@ -1,6 +1,6 @@
 # Portfolio Site 	✨
 
-This site includes a home page, an about me page, and portfolio page. The portfolio page houses projects that may also be found within my repositories. Completed projects will be added to the portfolio. These will be listed starting from the most recent to the oldest.
+This site includes a home page, an about me page, and portfolio page. The portfolio showcases projects that may also be found in my GitHub [repositories](https://github.com/allymitchem?tab=repositories). New projects will be added to the portfolio, with the list sorted from the most recent to the oldest.
 
 Please let me know if you have any suggestions for improving the site! Creativity compells me to change things often! 
 
