@@ -84,11 +84,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  
-  margin-top: 15%;
-  
+  /* margin-top: 15%; */
   display: flex;
- align-items: center;
+  align-items: center;
  justify-content: center;
   flex-direction: column;
   margin-right: 20%;
@@ -142,7 +140,7 @@ body {
 /* About Me section*/
 
 #about {
-  margin: 10% 20%;
+  margin: 5% 20%;
   background-color: white;
   backdrop-filter: blur(10px);
   padding: 2%;
@@ -225,40 +223,50 @@ a:active {
   font-size: 1rem;
   padding-left: 20px;
   margin-top: 0;
+  
 }
 
 .descriptions {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
   padding-left:20px;
   padding-right:13px;
-  margin-bottom: 0;
+  
+  
   
 }
 
 .projectLinks{
-  width: 100%;
-display:flex;
-justify-content: center;
-align-items: center;
-
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2%;
 }
 
 .projectLinks a {
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
-  
+}
+
+.projectLinks img {
+  height: 1.75rem;
+  margin-bottom:20px;
 }
 
 .projectLinks a:active {
   transform: translate(0, 0.1rem);
- 
 }
 
 .projectGH {
-width:auto;
-height: auto;
-max-width: 5%;
+  width:auto;
+  height: auto;
+  margin-right: 5px;;
+}
+
+.projectLink{
+  width:auto;
+  margin-left: 0;
 }
 
 @media screen and (max-width:1000px){
@@ -266,6 +274,14 @@ max-width: 5%;
     margin-right: 2%;
     margin-left: 2%;
 
+  }
+
+  #name {
+    font-size: 3rem;
+  }
+
+  #title {
+    font-size: 2rem;
   }
 
   #aboutMeTextBox {
