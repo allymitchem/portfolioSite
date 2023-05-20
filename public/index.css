@@ -70,6 +70,7 @@ body {
 
 #portfolioLink {
   border: none;
+  
 }
 /*HOME PAGE*/
 
@@ -295,7 +296,13 @@ a:active {
   #logoIcons {
     height:50px;
   }
-  
+   .projectContainer {
+    margin-top: 12%;
+   }
+
+   #projectLinks img {
+    height: 1rem;
+   }
 
 
 }
