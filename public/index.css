@@ -275,6 +275,17 @@ a:active {
 }
 
 @media screen and (max-width:1000px){
+  #navbar{
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  #portfolioLink {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
   #home, #about {
     margin-right: 2%;
     margin-left: 2%;
@@ -299,12 +310,12 @@ a:active {
     height:50px;
   }
    .projectContainer {
-    margin-top: 15%;
+    margin-top: 10%;
    }
 
    .projectLinks img {
     width: 20px;
-    /* width:.5rem; */
+    
    }
 
 
