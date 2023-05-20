@@ -145,7 +145,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 5% 20%;
+  margin: 8% 20%;
   background-color: white;
   backdrop-filter: blur(10px);
   padding: 2%;
@@ -186,7 +186,6 @@ a:active {
 .projectContainer {
 
   margin: 5% 20%;
-  
   overflow-y: scroll;
   padding:5px;
   
@@ -194,7 +193,6 @@ a:active {
 
 
 .individualProjects {
-  
   
   width: 100%;
   margin-bottom: 30px;
