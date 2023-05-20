@@ -1,6 +1,6 @@
 {
-  "homepage": "allymitchem.github.io/portfolioSite/",
-  "name": "contact-list",
+  "name": "portfolio-site",
+  "homepage": "https://allymitchem.github.io/portfolioSite/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
