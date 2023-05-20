@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap');
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color:whitesmoke;
+  
+  
+}
+
+
+/*NAVBAR*/
+
+#navbar {
+
+  max-height: 10%;
+  min-height: 50px;
+  width:100vw;
+  background-color: rgba(245, 245, 245, 0.342);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+ 
+}
+
+
+
+#homeLink,
+#aboutLink,
+#portfolioLink {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 14pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-right: 20px;
+  border-right: 2px solid black;
+  align-content: center;
+}
+
+
+#homeLink:hover,
+#aboutLink:hover,
+#portfolioLink:hover {
+  color:rgb(23, 82, 61);
+  filter:brightness(150%);
+}
+
+#homeLink:active,
+#aboutLink:active,
+#portfolioLink:active {
+  transform: translate(0, 0.1rem);
+}
+
+#portfolioLink {
+  border: none;
+}
+/*HOME PAGE*/
+
+#home #navbar {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#home {
+  
+  background-color: rgba(245, 245, 245, 0.157);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  /* margin-top: 15%; */
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  flex-direction: column;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 20px;
+  
+
+}
+
+
+
+#name {
+  font-family: "Bungee Shade", cursive;
+ 
+  font-size: 50pt;
+  text-transform: uppercase;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+#title {
+  font-family: "Montserrat", sans-serif;
+ 
+  font-size: 30pt;
+  align-self: center;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/*FOOTER*/
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(245, 245, 245, 0.342);
+  backdrop-filter: blur(5px);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footerIcons {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+}
+/* About Me section*/
+
+#about {
+  margin: 5% 20%;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  padding: 2%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  /* max-height: 55vh; */
+ 
+}
+
+#about h2 {
+  margin-bottom: 10px;
+}
+
+#aboutMeTextBox {
+  margin-top: 0;
+  font-size: 15pt;
+  font-family: "Montserrat", sans-serif;
+}
+#langIcons {
+  padding:5px;
+  align-self: center;
+  /* margin-top: 10%; */
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+#logoIcons {
+  height: 80px;
+}
+a:active {
+  transform: translate(0, 0.1rem);
+}
+
+
+
+/* Project Container */
+.projectContainer {
+
+  margin: 5% 20%;
+  
+  overflow-y: scroll;
+  padding:5px;
+  
+}
+
+
+.individualProjects {
+  
+  
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.729);
+  
+  
+}
+
+.projectContainer img {
+  width:95%;
+  margin-top: 2%;
+  margin-bottom:5px;
+
+}
+
+.imageContainer {
+  display:flex;
+  justify-content: center;
+}
+
+.titles {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  padding-left:20px;
+  margin-bottom: 0;
+}
+.roles {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 1rem;
+  padding-left: 20px;
+  margin-top: 0;
+  
+}
+
+.descriptions {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  padding-left:20px;
+  padding-right:13px;
+  
+  
+  
+}
+
+.projectLinks{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.projectLinks a {
+  display: flex;
+  justify-content: center;
+}
+
+.projectLinks img {
+  height: 1.75rem;
+  margin-bottom:20px;
+}
+
+.projectLinks a:active {
+  transform: translate(0, 0.1rem);
+}
+
+.projectGH {
+  width:auto;
+  height: auto;
+  margin-right: 5px;;
+}
+
+.projectLink{
+  width:auto;
+  margin-left: 0;
+}
+
+@media screen and (max-width:1000px){
+  #home, #about {
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  #name {
+    font-size: 3rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #aboutMeTextBox {
+    font-size: 1rem;
+    
+  }
+ 
+
+  #logoIcons {
+    height:50px;
+  }
+  
+
+
+}
