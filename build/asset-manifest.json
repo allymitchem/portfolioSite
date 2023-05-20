@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/static/js/main.70a3a100.js",
+    "static/media/react.png": "/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/htmlJSCSS.png": "/static/media/htmlJSCSS.a031633e09f8cbbcff12.png",
+    "static/media/postgreSQL.png": "/static/media/postgreSQL.c56c146c8e3ec2402c98.png",
+    "static/media/github.png": "/static/media/github.9e0a1ad5b7392718f7bd.png",
+    "static/media/linkedin.png": "/static/media/linkedin.a680cb8ad2b88be03d17.png",
+    "static/media/cplusplus.png": "/static/media/cplusplus.1240ce157b70fb399c6c.png",
+    "static/media/nodeJS.png": "/static/media/nodeJS.478c590a266bed215577.png",
+    "static/media/email.png": "/static/media/email.ed011846cef26c77db90.png",
+    "index.html": "/index.html",
+    "main.70a3a100.js.map": "/static/js/main.70a3a100.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.70a3a100.js"
+  ]
+}
