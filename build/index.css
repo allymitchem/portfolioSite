@@ -44,7 +44,7 @@ body {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  font-size: .75rem; 
+  font-size: 1rem; 
   /* needing a smaller font-size due to deployment site */
   font-weight: 600;
   text-transform: uppercase;
@@ -102,7 +102,7 @@ body {
 #name {
   font-family: "Bungee Shade", cursive;
  
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   align-self: center;
   margin-bottom: 0;
@@ -111,7 +111,7 @@ body {
 #title {
   font-family: "Montserrat", sans-serif;
  
-  font-size: 1.75rem;
+  font-size: 2rem;
   align-self: center;
   margin-top: 0;
   text-transform: uppercase;
@@ -145,24 +145,18 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* margin-right: 20%;
-  margin-left: 20%; */
   margin: 5% 20%;
   background-color: white;
   backdrop-filter: blur(10px);
   padding: 2%;
   font-family: 'Bebas Neue', sans-serif;
   overflow-y: scroll;
-  /* position: relative; */
-  /* z-index: 1; */
-  /* font-size: 1.5rem; */
-  /* max-height: 50vh; */
- 
+
 }
 
 #about h2 {
   margin-bottom: 10px;
-  /* font-size: 1.75rem; */
+ 
 }
 
 #aboutMeTextBox {
@@ -173,7 +167,6 @@ body {
 #langIcons {
   padding:5px;
   align-self: center;
-  /* margin-top: 10%; */
   margin-right: 20%;
   margin-left: 20%;
   display: flex;
