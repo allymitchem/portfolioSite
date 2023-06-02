@@ -8,6 +8,25 @@ const ProjectCard = () => {
 
     return (
         <div class="projectContainer">
+
+            <div class="individualProjects">
+                <span class="imageContainer">
+                    <img src="https://res.cloudinary.com/fsa2/image/upload/v1685736779/portfolio%20site%20images/Screen_Shot_2023-06-02_at_1.46.38_PM_mxic0d.png" alt="PictureInPicture"/>
+                </span>
+                <h2 class="titles" >Picture in Picture</h2>
+                <h3 class="roles">Developer | May 2023</h3>
+                <p class="descriptions">Picture in Picture enables users to view another window or tab in a smaller viewing window through screen capture from the Screen Capture API. This allows the user to multitask without compromising their entire screen.</p>
+                <div class="projectLinks">
+                <a  href="https://github.com/allymitchem/pictureInPicture" target ="_blank">
+                <img class="projectGH" src={github} alt="github"/>
+                </a>
+                <a  href="https://allymitchem.github.io/pictureInPicture/" target ="_blank">
+                <img class="projectLink" src={link} alt="link"/>
+                </a>
+
+                </div>
+             </div>
+
             <div class="individualProjects">
                 <span class="imageContainer">
                     <img src="https://res.cloudinary.com/fsa2/image/upload/v1684448158/portfolio%20site%20images/Screen_Shot_2023-05-18_at_4.14.07_PM_esytkn.png" alt="InfiniteScroll"/>
