@@ -9,6 +9,25 @@ const ProjectCard = () => {
     return (
         <div class="projectContainer">
 
+<div class="individualProjects">
+                <span class="imageContainer">
+                    <img src="https://res.cloudinary.com/fsa2/image/upload/v1686774916/portfolio%20site%20images/Screen_Shot_2023-06-14_at_2.26.57_PM_osnobd.png" alt="FlexboxGuide"/>
+                </span>
+                <h2 class="titles" >Flexbox Guide</h2>
+                <h3 class="roles">Developer | June 2023</h3>
+                <p class="descriptions">Flexbox Guide is a visual guide for CSS flexbox using cute little plants.</p>
+                <div class="projectLinks">
+                <a  href="https://github.com/allymitchem/flexboxGuide" target ="_blank">
+                <img class="projectGH" src={github} alt="github"/>
+                </a>
+                <a  href="https://flexbox-guide-tau.vercel.app/" target ="_blank">
+                <img class="projectLink" src={link} alt="link"/>
+                </a>
+
+                </div>
+             </div>
+
+
             <div class="individualProjects">
                 <span class="imageContainer">
                     <img src="https://res.cloudinary.com/fsa2/image/upload/v1685736779/portfolio%20site%20images/Screen_Shot_2023-06-02_at_1.46.38_PM_mxic0d.png" alt="PictureInPicture"/>
